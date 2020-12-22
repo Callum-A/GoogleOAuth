@@ -1,5 +1,5 @@
 {
-  "name": "GoogleOAuth",
+  "name": "google-simple-oauth",
   "version": "1.0.0",
   "description": "Simple class wrapper for google oauth",
   "main": "lib/index.js",
@@ -13,6 +13,10 @@
   "devDependencies": {
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Callum-A/GoogleOAuth.git"
   },
   "dependencies": {
     "googleapis": "^66.0.0"
