@@ -48,6 +48,10 @@ export default class GoogleOAuth {
     return await this.getUserProfileByIdToken(tokens.id_token);
   }
 
+  /**
+   * Get's a user's details by an ID token.
+   * @param idToken ID token to decode and get the details from.
+   */
   async getUserProfileByIdToken(idToken: string) {
     const userDetails = await this.client.verifyIdToken({
       idToken
